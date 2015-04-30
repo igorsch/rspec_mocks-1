@@ -13,6 +13,7 @@ gem 'rails', '4.2.0'
 
 group :development, :test do
   gem 'sqlite3'
+  gem 'shoulda-matchers'
 end
 
 group :production do
